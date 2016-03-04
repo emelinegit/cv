@@ -1,0 +1,297 @@
+body {
+    background: url(../images/bow-lake-50429_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    font-family: Quicksand, sans-serif;
+}
+
+
+/*Menu*/
+
+#menu {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+}
+
+#menu button {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: fixed;
+}
+
+nav {
+    display: none;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 18%;
+    height: 100%;
+    color: whitesmoke;
+    padding: 20px 30px;
+    left: 0;
+    top: 0;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px dotted grey;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+a {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    margin-left: 7px;
+}
+
+#name {
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    width: 180px;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 231px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*Main*/
+
+#top_color {
+    width: 850px;
+    height: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+#blue1,
+#blue2,
+#blue3 {
+    width: 20%;
+    height: 8px;
+}
+
+#blue1 {
+    background: #008466;
+}
+
+#blue2 {
+    background-color: #00B38B;
+}
+
+#blue3 {
+    background-color: #00cd9e;
+}
+
+#container {
+    background-color: white;
+    margin-left: 25%;
+    width: 850px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#contain {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*#progress_line {
+    margin-left: 50px;
+    width: 70px;
+    height: 300px;
+    position: fixed;
+    top: 0px;
+    background: url(../images/progress_bar_70x8.png) repeat-y center;
+    background-color: #00cd9e;
+}
+
+#progress_line img {
+    width: 85px;
+}
+
+#point {
+    position: relative;
+    top: -4px;
+}
+
+#point {
+    margin-top: 0px;
+}*/
+
+h1,
+h2 {
+    color: #008466;
+    font-size: 25px;
+}
+
+h2,
+h5,
+a {
+    text-transform: uppercase;
+}
+
+h3,
+h5 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    margin: 10px 0px;
+    color: #00B38B;
+    margin-top: 20px;
+    font-size: 17px;
+    position: relative;
+}
+
+
+/*h5:before {
+    content: url(../images/progress_point_70x70.png);
+    position: absolute;
+    left: -150px;
+}*/
+
+h6 {
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+p {
+    margin: 0 auto;
+    font-size: 14px
+}
+
+#intro {
+    margin-top: 50px;
+}
+
+#me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#me div {
+    margin-left: 80px;
+}
+
+#me p {
+    width: 400px;
+}
+
+#ma_photo {
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid #00cd9e;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+#sections {
+    width: 60%;
+    margin-left: 160px;
+    /*remettre à 200px pour la progress-line*/
+}
+
+#profile,
+article {
+    margin: 60px 0px;
+}
+
+.date {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#skills img {
+    width: 20px;
+    vertical-align: middle;
+    margin: 5px 0px;
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+}
+
+
+/*#skills img:hover {
+    -webkit-filter: none;
+    filter: none;
+}*/
+
+#skills div #softwares p {
+    margin: 10px 10px;
+}
+
+#softwares img {
+    width: 60px;
+}
+
+#softwares div {
+    width: 80%;
+}
+
+#softwares img,
+#softwares div {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#interest p {
+    margin: 10px 0px;
+}
+
+#logo_langages,
+#interest div {
+    display: flex;
+}
+
+#logo_langages div,
+#interest div div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#languages {
+    margin-bottom: 80px;
+}
+
+i {
+    color: #505050;
+}
