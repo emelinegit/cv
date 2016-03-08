@@ -132,7 +132,6 @@ h4 {
     flex-direction: row;
 }
 
-
 /*#progress_line {
     margin-left: 50px;
     width: 70px;
@@ -179,12 +178,14 @@ h5 {
     position: relative;
 }
 
-
-/*h5:before {
-    content: url(../images/progress_point_70x70.png);
+h5:before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/progress_point_70x70.png);
     position: absolute;
     left: -150px;
-}*/
+}
 
 h6 {
     margin: 5px 0px;
@@ -225,7 +226,7 @@ p {
 
 #sections {
     width: 60%;
-    margin-left: 160px;
+    margin-left: 200px;
     /*remettre à 200px pour la progress-line*/
 }
 
