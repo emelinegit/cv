@@ -667,6 +667,7 @@ footer p {
 hr {
     margin: 0 auto;
     margin-bottom: 10px;
+    border-color: #008466;
 }
 
 #back-to-top {
