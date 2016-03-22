@@ -257,12 +257,12 @@ h4 {
 /*HEADER*/
 
 #headertitle {
-    animation: fadein 3s;
-    -moz-animation: fadein 3s;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s;
     /* Firefox */
-    -webkit-animation: fadein 3s;
+    -webkit-animation: fadein 6s;
     /* Safari et Chrome */
-    -o-animation: fadein 3s;
+    -o-animation: fadein 6s;
     /* Opera */
 }
 
