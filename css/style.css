@@ -379,7 +379,7 @@ section {
 /*INTRO*/
 
 #intro p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -393,8 +393,19 @@ section {
 }
 
 #photo img {
-    width: 150px;
-    border-radius: 3px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px;
+}
+
+#me h2 {
+    margin-bottom: 20px;
+}
+
+#me p {
+    text-align: left;
+    font-family: "Indie Flower";
 }
 
 
@@ -411,14 +422,38 @@ section {
     padding: 15px;
 }
 
-.detail {
-    width: 350px;
-    margin: 0 auto;
+#experience h3 {
     font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: "Quicksand";
 }
 
 #experience p {
     margin-top: 10px;
+}
+
+.detail {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#experience a {
+    font-style: italic;
+    color: #008466;
+}
+
+#softwares {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.img-softwares {
+    height: 30px;
+    width: auto;
+    margin-left: 10px;
 }
 
 
@@ -468,7 +503,7 @@ section {
     position: absolute;
     margin-top: 100px;
     left: 50%;
-    height: 880px;
+    height: 1200px;
     border-left: solid 2px #008466;
 }
 
@@ -515,9 +550,6 @@ section {
 }
 
 #skills {
-    /*background: url(../images/bow-lake-50429_1280.jpg);
-background-attachment: fixed;
-background-size: cover;*/
     padding: 0px;
 }
 
@@ -567,7 +599,8 @@ background-size: cover;*/
     margin-bottom: 20px;
 }
 
-#logo_langages img {
+
+/*#logo_langages img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -575,7 +608,7 @@ background-size: cover;*/
 #logo_langages img:hover {
     -webkit-filter: none;
     filter: none;
-}
+}*/
 
 #langages {
     text-align: center;
