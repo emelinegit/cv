@@ -327,14 +327,14 @@ h3 {
 #header i {
     color: whitesmoke;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
 
 #header i:hover {
-    margin-top: 160px;
+    margin-top: 110px;
 }
 
 
@@ -741,6 +741,12 @@ hr {
     }
     #skills h6 {
         font-size: 14px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+    #timeline {
+        height: 1160px;
     }
 }
 
