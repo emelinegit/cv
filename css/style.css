@@ -253,6 +253,10 @@ h4 {
     font-weight: bold;
 }
 
+.fa-times {
+    display: none !important;
+}
+
 
 /*HEADER*/
 
@@ -716,6 +720,12 @@ hr {
 
 
 /*MEDIA QUERIES*/
+
+@media (max-width: 961px) {
+    .fa-times {
+        display: inherit !important;
+    }
+}
 
 @media (max-width: 767px) {
     h1 {

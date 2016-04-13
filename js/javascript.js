@@ -7,6 +7,10 @@ $(document).ready(function () {
         $("nav").hide(700);
         $("#menu").fadeIn(500);
     });
+    $(".fa-times").click(function () {
+        $("nav").hide(700);
+        $("menu").fadeIn(500);
+    });
 });
 
 $('a[href^="#"]').click(function () {
@@ -36,6 +40,8 @@ $(window).scroll(function () {
         $('#back-to-top').fadeOut();
     }
 });
+
+
 $('#back-to-top').click(function () {
     $('html, body').animate({
         scrollTop: 0
