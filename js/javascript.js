@@ -7,7 +7,7 @@ $(document).ready(function () {
         $("nav").hide(700);
         $("#menu").fadeIn(500);
     });
-    $(".fa-times").click(function () {
+    $(".fa-times").on('touchstart', function () {
         $("nav").hide(700);
         $("menu").fadeIn(500);
     });
