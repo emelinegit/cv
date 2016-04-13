@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
     $(".fa-times").on('touchstart click', function () {
         $("nav").hide(700);
-        $("menu").fadeIn(500);
+        $("#menu").fadeIn(500);
     });
 });
 
