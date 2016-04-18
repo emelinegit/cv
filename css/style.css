@@ -671,6 +671,10 @@ section {
     margin-right: 20px;
 }
 
+#contact a {
+    color: whitesmoke;
+}
+
 footer {
     background-color: #333333;
     text-align: center;
